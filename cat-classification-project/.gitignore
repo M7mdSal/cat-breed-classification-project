@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+models/*.keras
+outputs/*.png
+outputs/*.json
+data/cat/*
+data/not_cat/*
+!data/cat/.gitkeep
+!data/not_cat/.gitkeep
